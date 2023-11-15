@@ -1,0 +1,358 @@
+html {
+  scroll-behavior: smooth;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px !important;
+}
+
+.highlight {
+  background-color: #f89784;
+  color: #fff;
+  display: inline-block;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px 8px 0px;
+  font-weight: 100;
+  font-size: 0.9rem;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.horizontal-list li a {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+}
+
+.nav-menu li a:hover {
+  color: black;
+  border-bottom: 3px solid rgb(5, 94, 157);
+  font-weight: bold;
+}
+.btn {
+  background-color: #77aad5;
+  color: #fff;
+  border-radius: 26px;
+  border: none;
+  padding: 18px 56px;
+  cursor: pointer;
+}
+/* --------------------------
+    Hero Section
+--------------------------- */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.text-section {
+  width: 50%;
+}
+.image-section {
+  width: 50%;
+}
+
+.text-section h1 {
+  font-size: 60px;
+  /* display: inline-block; */
+}
+
+.hero-section button {
+  margin-top: 32px;
+}
+
+/* --------------------------
+    Overview Section
+--------------------------- */
+
+.overview-section {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.overview-section .overview-text {
+  width: 50%;
+}
+.overview-section .overview-text h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.overview-section .overview-text p {
+  color: #4e528e;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.experience-description {
+  letter-spacing: 0px;
+  line-height: 23px;
+  color: #333333;
+  font-weight: 300;
+  font-family: "Poppins";
+}
+
+.overview-section .overview-block {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.overview-section .overview-block .overview-block-small {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0px 0px 7px 0px #0000001c;
+  border-radius: 8px;
+}
+
+.overview-section .overview-block .overview-block-small img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.overview-section .overview-block .overview-block-small p {
+  font-size: 23px;
+  letter-spacing: 0px;
+  line-height: 37px;
+  color: #333333;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+/* --------------
+Explore section 
+---------------*/
+
+.explore-section {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.explore-section .explore-text {
+  width: 50%;
+}
+.explore-section .explore-text h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.explore-section .explore-text p {
+  color: #4e528e;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+ .explore-text-i {
+  padding-bottom: 5%;
+padding-left: 110px;
+}
+/* --------------------------
+    We Work Section
+--------------------------- */
+.we-work {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.we-work .we-work-text {
+  width: 50%;
+}
+
+.we-work .we-work-text p {
+  color: #4e528e;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.we-work .we-work-text h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.explore-section {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.we-work .we-work-image {
+  width: 50%;
+  text-align: center;
+}
+
+/* --------------------------
+    Quick Service Section
+--------------------------- */
+.quick-service {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.quick-service .text-block {
+  width: 50%;
+}
+.quick-service .image-section {
+  width: 50%;
+  text-align: center;
+}
+.quick-service .text-block p {
+  color: #4e528e;
+  font-size: 18px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.quick-service .text-block h2 {
+  font-size: 50px;
+}
+::placeholder{
+  font-size: 19px;
+letter-spacing: 1px;
+line-height: 23px;
+color: #79acd9;
+font-weight: 300;
+font-family: "Poppins";
+opacity: 1;
+}
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #79acd9;
+}
+
+form .group-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form .group-1 div {
+  display: grid;
+  width: 100%;
+}
+form .group-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+form .group-2 div {
+  display: grid;
+  width: 100%;
+}
+form input {
+  border: none;
+  border-bottom: 2px solid #f89784;
+  height: 40px;
+  outline: none;
+ 
+}
+/* WEwork  */
+
+.container-C {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container-C .cards {
+  display: grid;
+  width: 630px;
+  padding-top: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+  padding-bottom: 12px;
+  
+}
+
+
+/* Style the cards */
+.container-C .card {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  /* justify-content: center; */
+width: 264px;
+height: 96px;
+border-radius: 10px;
+padding-left: 25px;
+filter: drop-shadow(9.959px 8.356px 20px rgba(43,55,76,0.21));
+background-color: #ffffff;
+font-style: calc(bold);
+
+}
+.container-C img{
+  height: 55px;
+  width: 55px;
+}
+.container-C h4{
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #464a89;
+  font-weight: 500;
+  font-family: "Poppins";
+  padding-left: 45px;
+}
